@@ -1,1 +1,103 @@
-<html>Head</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PayPal Presentment Crawler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page">
+
+    <header>
+      <div class="badge">Verified Bot · AI Crawler</div>
+      <h1>PayPal Presentment Crawler</h1>
+      <p class="subtitle">
+        An automated crawler operated by PayPal to review merchant checkout and PayPal
+        product presentment experiences for quality, availability, and compliance validation.
+      </p>
+    </header>
+
+    <section>
+      <h2>What it does</h2>
+      <p>
+        The crawler navigates live product pages using a browser agent and checks for
+        required PayPal integration signals — buttons, SDK calls, and checkout flows —
+        across target merchant surfaces.
+      </p>
+    </section>
+
+    <section class="checks">
+      <h2>What it checks</h2>
+      <div class="row">
+        <div class="item">
+          <span class="dot"></span>
+          <div>
+            <strong>Button presence</strong>
+            <p>PayPal / Venmo / Pay Later buttons rendered correctly on checkout pages</p>
+          </div>
+        </div>
+        <div class="item">
+          <span class="dot"></span>
+          <div>
+            <strong>SDK integration</strong>
+            <p>PayPal JS SDK loaded with the correct client ID and intent</p>
+          </div>
+        </div>
+        <div class="item">
+          <span class="dot"></span>
+          <div>
+            <strong>Checkout flow</strong>
+            <p>End-to-end flow completes without broken redirects or missing steps</p>
+          </div>
+        </div>
+        <div class="item">
+          <span class="dot"></span>
+          <div>
+            <strong>Visual adherence</strong>
+            <p>Button styling, placement, and branding match PayPal merchant guidelines</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Bot details</h2>
+      <div class="meta">
+        <div class="meta-row">
+          <span class="meta-label">Bot owner</span>
+          <span>PayPal</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">Bot type</span>
+          <span>Verified Bot</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">Category</span>
+          <span>AI Crawler</span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">Verification method</span>
+          <span>Request signature (beta)</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Validation</h2>
+      <p>
+        PayPal follows Cloudflare's request-signature verification process using the
+        keys and configuration provided by Cloudflare. The crawler includes the required
+        signature headers on all requests.
+      </p>
+    </section>
+
+    <footer>
+      <span>Operated by PayPal</span>
+    </footer>
+
+  </div>
+
+</body>
+</html>
